@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body{
+    font-size: 15px;
+}
+
+.main{
+    background: hsl(233, 47%, 7%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.card{
+    background: hsl(244, 38%, 16%);
+    border-radius: 0.5rem;
+    display: flex;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lower-content{
+    display: flex;
+}
+
